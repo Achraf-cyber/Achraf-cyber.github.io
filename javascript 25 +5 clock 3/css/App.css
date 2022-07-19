@@ -1,0 +1,76 @@
+
+
+/* just for development purpose */
+   .TimerDisplay, .MyLabelWidget, .name-label, .name-length  {
+  border: 1px solid black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+  /* height: auto; */
+  /* max-height: 500px; */
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25% 25% 5% 5%;
+  padding: 5% 1% ;
+}
+
+.SessionIndicator{
+  flex: 1 3 25px;
+  font-size: 2em;
+  padding-bottom: -2em;
+  /* border-radius: 50% 50% 0% 0%; */
+}
+.timerControl {
+  /* in his parent */
+  flex: 5 1 100px;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsContainer{
+  /* in his parent */
+  flex: 1 1 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsContainer > div:first-of-type {
+  border-right: 1px solid black;
+}
+.buttonsContainer > div:last-of-type {
+  border-left: 1px solid black;
+}
+
+.MyButton {
+  flex: 1 1 50px;
+  font-size: 3em;
+}
+
+.TimerDisplay{
+  flex: 10 1 50px;
+  font-size: 5em;
+}
+
+.MyLabelWidget{
+  flex: 1 10 50px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.MyLabelWidget > div {
+  flex: 1 1 40px;
+} 
+
+
+.MyLabelWidget button{
+  display: block;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
