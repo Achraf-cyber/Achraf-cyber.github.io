@@ -1,0 +1,50 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  
+  }
+  
+  #survey-form {
+    margin: 50px auto;
+    max-width: 300px;
+    padding-bottom: 5px;
+  }
+  #title, #description {
+    margin: 10px auto -5px auto;
+    text-align: center;
+  }
+  #title {
+    margin-top: 20px;
+  }
+  #name-label, #email-label, #number-label, label[for="dropdown"] {
+    display: block;
+    font-size: 20px;
+  }
+   #name, #email, #number, select, input[type="submit"] {
+     height: 1.5em;
+     font-size: 20px;
+     margin-bottom: 10px;
+     width: 100%;
+   }
+   fieldset {
+     border: 0px;
+   }
+   hr {
+     margin: 20px 30%;
+   }
+   textarea {
+     min-width: 90%;
+     max-width: 90%;
+     min-height: 100px;
+     max-height: 200px;
+     margin: auto;
+   }
+   input[type="submit"]{
+     width: 200px;
+     text-align: center;
+     margin: 20px auto 15px auto;
+     display: block;
+     background-color: #95a3e0;
+   }

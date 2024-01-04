@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>K3 Survey Form</title>
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <h1 id="title">K3 Survey Form</h1>
+    <p id="description">Please fill out this form to join th K3 Taekwondo Club</p>
+    <form id="survey-form">
+      <fieldset>
+      <label for='name' id="name-label">name:</label> <input type="text" id="name" name='name' placeholder="John Doe" required>
+      <label for='email' id="email-label">email: </label><input type="email" id="email" name='email' placeholder="myemail@website.com" required>
+      <label for='age' id="number-label">age: </label><input type="number" placeholder="18" id="number" name='age' min="13" max="120">
+      </fieldset>
+      <!-- <hr > -->
+      <fieldset>
+        <label for="dropdown">What is your current level</label><select id="dropdown" name="level" >
+          <option value="" selected disabled hidden>choose here</option>
+          <option value="white-belt" >white belt</option>
+          <option value="yellow-belt" >yellow belt</option>
+          <option value="blue-belt" >blue belt</option>
+          <option value="red-belt" >red belt</option>
+          <option value="black-belt" >black belt</option>
+        </select>
+        <p>Do you want to become a full member of our Club</p>
+        <div id="membership-container">
+       <input type="radio" name="membership" value="yes" > <label for="yes">Yes</label>
+       <input type="radio" name="membership" value="no" > <label for="no">No</label>
+       </div>
+       </fieldset>
+      <fieldset>
+       <p>Why do you want to master Taekwondo ?</p>
+       <div class="choice"><input type="checkbox" id="self-defense" value="self-defense"><label for="self-defense">Self Defense</label>
+       </div>
+       <div class="choice"><input type="checkbox" id="competition" value="self-defense"><label for="competition">Competition</label>
+       </div>
+      </fieldset>
+      <p>Why do you want to join the k3 Taekwondo Club ?</p>
+      <textarea ></textarea>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>

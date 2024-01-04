@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Markdown documentation page</title>
+    <link rel="stylesheet" href="styles.css" >
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h1>Markdown Documentation</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction" >Introduction</a></li>
+ <li><a class="nav-link" href="#Les_titres_en_Markdown" >Les titres en Markdown</a></li>
+ <li><a class="nav-link" href="#Le_gras" >
+Le gras</a></li>
+ <li><a class="nav-link" href="#L_italic" >
+L italic</a></li>
+ <li><a class="nav-link" href="#Les_citations" >
+Les citations</a></li>
+ <li><a class="nav-link" href="#Les_listes_non_ordonnees" >
+Les listes non ordonnees</a></li>
+ <li><a class="nav-link" href="#Les_listes_ordonees" >
+Les listes ordonees</a></li>
+ <li><a class="nav-link" href="#Les_blocks_de_code" >
+Les blocks de code</a></li>
+ <li><a class="nav-link" href="#Les_liens" >
+Les liens</a></li>
+ <li><a class="nav-link" href="#Les_images" >
+Les images</a></li>
+        <ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction" >
+        <header><h1>Introduction</h1></header>
+        <p>Markdown est un laguage de balisage qui permet de formater du text simple. On peut y ajouter des textes gras, du text italic, des liens, des images, etc. La particularité de markdown est que le text reste lisible même sans le rendu.</p>
+        <p> IL est beaucoup utiliser pour formater les fichier readme.md des dépots github, pour formater les notebook jupiter, etc.</p>
+      </section>
+      <section class="main-section" id="Les_titres_en_Markdown" >
+        <header><h2>Les titres en Markdown</h2></header>
+        <p>Markdown utilise le symbole "#" pour faire les titres. Mettez seulement le nombre de dièse correspondant au niveau du titre (Comme en HTML) suivi du titre lui même. Exemple
+
+<code>
+# Ceci est titre de niveau H1 <br>
+## Ceci est titre de niveau H2<br>
+### Ceci est titre de niveau H3<br>
+#### Ceci est titre de niveau H4<br>
+##### Ceci est titre de niveau H5<br>
+###### Ceci est titre de niveau H6<br>
+</code></p>
+      </section>
+      <section class="main-section" id="Le_gras" >
+        <header><h2>Le gras</h2></header>
+        <p>
+          Pour mettre du text en **gras** en markdown, il suffit juste de entourer de le placer entrer double étoile ou deux double underscore. Exemple :
+
+<code>
+**Ceci est du text en gras**<br>
+__ Ceci aussi __
+</code>
+        </p>
+      </section>
+      <section class="main-section" id="L_italic" >
+        <header><h2>L italic</h2></header>
+        <p>Pour mettre du text en *italic* en markdow on le met entre<ul>
+          <li>Soit une paire d'étoiles</li>
+          <li>Soit une paire d'underscore</li>
+          </ul>
+          
+ Exemple :
+
+<code>
+_ Cet text en italic _<br>
+* Ce text aussi *
+</code></p>
+      </section>
+      <section class="main-section" id="Les_citations" >
+        <header><h2>Les citations</h2></header>
+        <p>Markdown offre la possiblité de formater un text un text comme une citation.
+> IL suffit de mettre le symbole ""> devant le text. Exemple
+
+<code>
+> Ceci est une citation
+</code></p>
+      </section>
+      <section class="main-section" id="Les_listes_non_ordonnees" >
+        <header><h2>Les listes non ordonnees</h2></header>
+        <p>Pour créer des listes non ordonnées en markdown, on utilise 
+          <ul>
+            <li>Le caractère étoile "*"</li>
+            <li>Le caractère tiret "-"</li>
+            <li>Le caractère plus "+"</li>
+          </ul>
+
+<code>
+- element
++ element
+* element
+</code></p>
+      </section>
+      <section class="main-section" id="Les_listes_ordonees" >
+        <header><h2>Les listes ordonees</h2></header>
+        <p>
+          Les ordonné sont contruites en mettant "1."devant chaque élément de la liste quelque soit son ordre. Exemple :
+
+<code>
+1. premier element<br>
+1. deuxième element<br>
+1. troisième element<br>
+</code>
+
+        </p>
+      </section>
+      <section class="main-section" id="Les_blocks_de_code" >
+        <header><h2>Les blocks de code</h2></header>
+        <p>
+          Les blocks de code sont intruit dans une ligne en utilisant une paire de "`" pour du code qui se limite à quelque mots et une pair de "```" pour du code multiligne.
+        </p>
+      </section>
+      <section class="main-section" id="Les_liens" >
+        <header><h2>Les liens</h2></header>
+        <p>
+          Les liens en markdown sont ajoutés en utilisant la syntaxe suivante :
+
+<code>
+[Text du lien](https://www.adressedusite.com)
+</code>
+        </p>
+      </section>
+      <section class="main-section" id="Les_images" >
+        <header><h2>Les images</h2></header>
+        <p>Les images utilisent la même syntaxe que les liens à la différence qu'il faut ajouter un "!" devant le lien comme suit :
+
+<code>
+[Text alternatif](https://www.liendelimage.com)
+</code></p>
+      </section>
+    </main>
+  </body>
+</html>

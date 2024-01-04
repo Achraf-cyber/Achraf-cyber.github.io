@@ -1,0 +1,22 @@
+
+code {
+  display: block;
+  min-height: 50px;
+  background: #eee;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding: 10px;
+  margin-top: 10px;
+}
+li:not(p > ul > li){
+  display: block;
+}
+@media(max-width: 200px){
+  #navbar{
+    position: absolute;
+    top: 0px;
+  }
+  #main-doc {
+    margin-top: 350px;
+  }
+}
