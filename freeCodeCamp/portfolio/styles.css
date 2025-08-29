@@ -1,0 +1,37 @@
+li {
+    display: block;
+  }
+  
+  #navbar ul {
+  display: flex;
+  flex-direction: horizontal;
+  gap: 20px;
+  justify-content: flex-end;
+  }
+  
+  header {
+    display: flex;
+    background-color: brown;
+    align-items: flex-end;
+  }
+  #navbar{
+  display: block;
+  align-self: flex-end;
+  }
+  a, #title{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
