@@ -23,7 +23,6 @@
 "uttp", "bot", "sybau"
 ],
 "forbidenComments": [
- "f\\s*o\\s*p\\s*i\\s*l\\s*c\\s*s\\s*u\\s*o\\s*i\\s*r\\s*a\\s*l\\s*i\\s*h\\s*a\\s*d\\s*e\\s*d\\s*a\\s*o\\s*l\\s*p\\s*u\\s*j\\s*i[\\s\\S]*?a\\s*w\\s*o\\s*m\\s*a\\s*n\\s*c\\s*r\\s*y\\s*i\\s*n\\s*g[\\s\\S]*?g\\s*o\\s*d\\s*r\\s*e\\s*h\\s*r\\s*e\\s*v\\s*o[\\s\\S]*?n\\s*w\\s*o\\s*d\\s*t\\s*u\\s*p\\s*g\\s*n\\s*i\\s*e\\s*b",
  ""
 ]
 }
