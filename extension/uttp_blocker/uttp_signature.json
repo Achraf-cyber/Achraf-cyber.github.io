@@ -28,7 +28,9 @@
     "bot",
     "sybau",
     "fr",
-    "stole my content"
+    "stole my content",
+    "Gacha life with me"
+
   ],
   "forbiddenComments": ["^(?=.*\\bbelieve\\b)(?=.*\\bJesus\\b)(?=.*\\bBible\\b)(?=.*\\bsins?\\b)(?=.*\\bsave\\b).*$"]
 }
