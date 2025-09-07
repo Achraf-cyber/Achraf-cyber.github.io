@@ -1,5 +1,5 @@
 {
-    "channelsBlackList": [
+  "channelsBlackList": [
     "@UTTPGodOfTheUnderworld",
     "@UTTPdavid",
     "@UTTPSovietOfficerBogdan",
@@ -21,12 +21,11 @@
     "@doughdy-r8g",
     "@UTTPGrandOfficer",
     "@UTTPBetterThanEveryone"
-        
-],
-"forbiddenWord": [
-"uttp", "bot", "sybau"
-],
-"forbiddenComments": [
- ""
-]
+  ],
+  "forbiddenWord": [
+    "uttp",
+    "bot",
+    "sybau"
+  ],
+  "forbiddenComments": []
 }
