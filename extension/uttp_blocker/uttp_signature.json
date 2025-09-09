@@ -23,12 +23,17 @@
     "@UTTPBetterThanEveryone",
     "@UTTPOfficerScott"
   ],
+  "forbidenWordInChannel": [
+    "UTTP"
+  ],
   "forbiddenWord": [
     "stole my content",
     "Gacha life with me",
     "1ST WARNING TROLL",
     "BETTER THAN THIS NONSENSE",
-    "MY UPLOADS ARE BETTER"
+    "MY UPLOADS ARE BETTER",
+    "a woman crying"
+    
 
   ],
   "forgivableWords": [
@@ -36,5 +41,13 @@
     "bot",
     "sybau"
   ],
-  "forbiddenComments": ["^(?=.*\\bbelieve\\b)(?=.*\\bJesus\\b)(?=.*\\bBible\\b)(?=.*\\bsins?\\b)(?=.*\\bsave\\b).*$"]
+  "forbiddenComments": ["^(?=.*\\bbelieve\\b)(?=.*\\bJesus\\b)(?=.*\\bBible\\b)(?=.*\\bsins?\\b)(?=.*\\bsave\\b).*$",
+  "^We hate .+$",
+   "^I CHOOSE THE BEAR[\\sA-Z,\\.]*[\\u1F300-\\u1FAFF\\u2764\\uFE0F]*$",
+  "^DONT INTERUPTS MY TAGGING[\\sA-Z,\\.\\?!:]*[\\u1F300-\\u1FAFF\\u2764\\uFE0F]*$",
+  "^Would you like to help me shut down .+$",
+   "^We are on a mission to shut down .+$",
+   "^(?=.*\\bEARTH\\b)(?=.*\\bSUN\\b)(?=.*\\bPROLIFE\\b)(?=.*\\bCOMMENT'S\\b)(?=.*\\bATTACK\\b).*$"
+     
+]
 }
