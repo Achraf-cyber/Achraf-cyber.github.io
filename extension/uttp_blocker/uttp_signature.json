@@ -21,19 +21,20 @@
     "@doughdy-r8g",
     "@UTTPGrandOfficer",
     "@UTTPBetterThanEveryone",
-    "@doughdy-r8g"
+    "@UTTPOfficerScott"
   ],
   "forbiddenWord": [
-    "uttp",
-    "bot",
-    "sybau",
-    "fr",
     "stole my content",
     "Gacha life with me",
     "1ST WARNING TROLL",
     "BETTER THAN THIS NONSENSE",
     "MY UPLOADS ARE BETTER"
 
+  ],
+  "forgivableWords": [
+   "uttp",
+    "bot",
+    "sybau"
   ],
   "forbiddenComments": ["^(?=.*\\bbelieve\\b)(?=.*\\bJesus\\b)(?=.*\\bBible\\b)(?=.*\\bsins?\\b)(?=.*\\bsave\\b).*$"]
 }
