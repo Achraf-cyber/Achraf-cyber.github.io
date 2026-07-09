@@ -1,0 +1,10 @@
+
+# --- added by reorg safeguard 2026-07-09 ---
+.env
+node_modules/
+build/
+.dart_tool/
+.next/
+dist/
+__pycache__/
+.venv/
